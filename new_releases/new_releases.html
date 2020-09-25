@@ -1,0 +1,653 @@
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>신상품 전체보기 - 나이키 by 3조</title>
+   <link rel="stylesheet" href="../css/common.css">
+   <link rel="stylesheet" href="../css/new_releases.css">
+
+   <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+
+   <link rel="icon" type="image/x-icon" href="../img/new_releases_img/android-icon-36x36.png" sizes="36x36">
+
+   <link
+   href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
+   rel="stylesheet"
+   />
+
+   <script src="https://kit.fontawesome.com/9cc89cc5cb.js" crossorigin="anonymous"></script>
+
+
+</head>
+
+
+<body>
+ 
+   <!--Header Start-->
+   <header id="header">
+      <nav id="header_gnb">
+        <ul class="gnb_left">
+          <li><a href="../index.html">Nike</a></li>
+          <li><a href="">Join Us</a></li>
+          <li><a href="#" id="jd_logo"></a></li>
+          <li class="min-width-110"><a href="#" id="cv_logo"></a></li>
+        </ul>
+        <!--/ GNB Left END-->
+
+        <ul class="gnb_right">
+          <li><a href="" class="join">회원가입</a> / 
+            <a href="" class="login">로그인</a></li>
+          <li><a href="">고객센터</a></li>
+          <li>
+            <a href="">
+              <i class="fas fa-shopping-cart" id="shopping-cart-desktop"></i>
+            </a>  
+          </li>
+          <li>
+              <a href="">
+              <i class="fas fa-map-marker"></i>&nbsp;&nbsp;대한민국
+            </a>
+          </li>  
+        </ul>
+        <!-- / GNB Right END-->
+      </nav>
+      <!--HEADER - GNB END -->
+
+      <nav id="lnb">
+         <div class="nike_logo_container"><a href="../index.html"><figure></figure></a></div>
+        <ul class="center_menu">
+          <li><a href="../new_releases/new_releases.html">NEW RELEASES</a></li>
+          <li><a href="">MEN</a></li>
+          <li><a href="">WOMEN</a></li>
+          <li><a href="">KIDS</a></li>
+        </ul>
+        <div class="search_container"> 
+          <input type="text" placeholder="검색" id="search-box">
+          <!-- <input type="text" placeholder="검색" id="search_box" />
+          <label for="search_box"> -->
+            <!--  <i class="fas fa-search"></i> -->
+          <!-- </label> -->
+        </div>
+      </nav>
+    </header>
+    <!--Header END-->
+
+
+
+
+
+<!-- Main Start -->
+<main>
+
+   <!-- Section Header -->
+   <section id="section_header">
+      <h1 class="section_header_title">신상품 전체보기</h1>
+      <div class="section_header_button">
+         <button>FILTER&nbsp;<i class="fas fa-sliders-h"></i></button>
+         <div class="section_header_new"><a href="#">신상품순&nbsp;<i class="fas fa-angle-down"></i></a></div>
+      </div>
+   </section>
+
+   <!-- Section Header Sticky-->
+   <section id="section_header_sticky">
+      <h1 class="section_header_title_sticky">신상품 전체보기</h1>
+      <div class="section_header_button">
+         <button>FILTER&nbsp;<i class="fas fa-sliders-h"></i></button>
+         <div class="section_header_new"><a href="#">신상품순&nbsp;<i class="fas fa-angle-down"></i></a></div>
+      </div>
+   </section>
+
+
+
+   <!-- Main Contents -->
+   <article id="contents_wrap">
+      
+      <!-- Section Sidebar -->
+      <section id="contents_side">
+         <div class="category_filter_box"></div>
+
+         <div class="category_gender_wrap">
+            <div class="category_title">
+               <span>성별</span>
+               <i class="fas fa-angle-up"></i>
+            </div>
+            <ul class="gender_list">
+               <li><a href="#">여성</a></li>
+               <li><a href="#">남성</a></li>
+               <li><a href="#">여아</a></li>
+               <li><a href="#">남아</a></li>
+               <li><a href="#">성인공용</a></li>
+               <li><a href="#">+ 더보기</a></li>
+            </ul>
+         </div>
+         
+         <div class="category_color_wrap">
+            <div class="category_title">
+               <span>색상</span>
+               <i class="fas fa-angle-up"></i>
+            </div>
+            <ul class="color_list">
+               <li class="color-item">
+                  <span class="input_checkbox">
+                     <a href="#"><span style="background-color: #f0e68c;"></span></a>
+                     <span class="productcolor_label">베이지</span>
+                  </span>
+               </li>
+             
+               <li class="color-item">
+                  <span class="input_checkbox">
+                     <a href="#">
+                        <span style="background-color: #000000;"></span>
+                     </a>
+                  </span>   
+                  <span class="productcolor_label">검정색</span>
+               </li>
+             
+               <li class="color-item">
+                  <span class="input_checkbox">
+                     <a href="#">
+                        <span style="background-color: #3786d5;"></span>
+                     </a>
+                  </span>   
+                  <span class="productcolor_label">파랑색</span>
+               </li>
+             
+               <li class="color-item">
+                  <span class="input_checkbox">
+                     <a href="#">
+                     <span style="background-color: #765439;"></span>
+                     </a>
+                  </span>   
+                  <span class="productcolor_label">갈색</span>
+               </li>
+             
+               <li class="color-item">
+                  <span class="input_checkbox">
+                     <a href="#">
+                     <span style="background-color: #d5d603;"></span>
+                     </a>
+                  </span>   
+                  <span class="productcolor_label">금색</span>
+               </li>
+             
+               <li class="color-item">
+                  <span class="input_checkbox">
+                     <a href="#">
+                     <span style="background-color: #737373;"></span>
+                     </a>
+                  </span>   
+                  <span class="productcolor_label">회색</span>
+               </li>
+   
+               <li class="color-item">
+                  <span class="input_checkbox">
+                     <a href="#">
+                     <span style="background-color: #0d9300;"></span>
+                     </a>
+                  </span>   
+                  <span class="productcolor_label">녹색</span>
+               </li>
+   
+               <li class="color-item">
+                  <span class="input_checkbox">
+                     <a href="#">
+                     <span style="background-color: #7f7f00;"></span>
+                     </a>
+                  </span>   
+                  <span class="productcolor_label">쑥색</span>
+               </li>
+   
+               <li class="color-item">
+                  <span class="input_checkbox">
+                     <a href="#">
+                     <span style="background-color: #3b4a75;"></span>
+                     </a>
+                  </span>   
+                  <span class="productcolor_label">남색</span>
+               </li>
+   
+               <li class="color-item">
+                  <span class="input_checkbox">
+                     <a href="#">
+                     <span style="background-color: #eb621e;"></span>
+                     </a>
+                  </span>   
+                  <span class="productcolor_label">주황색</span>
+               </li>
+   
+               <li class="color-item">
+                  <span class="input_checkbox">
+                     <a href="#">
+                     <span style="background-color: #ea008a;"></span>
+                     </a>
+                  </span>   
+                  <span class="productcolor_label">분홍색</span>
+               </li>
+   
+               <li class="color-item">
+                  <span class="input_checkbox">
+                     <a href="#">
+                     <span style="background-color: #693cb1;"></span>
+                     </a>
+                  </span>   
+                  <span class="productcolor_label">보라색</span>
+               </li>
+   
+               <li class="color-item">
+                  <span class="input_checkbox">
+                     <a href="#">
+                     <span style="background-color: #c40001;"></span>
+                     </a>
+                  </span>   
+                  <span class="productcolor_label">빨강색</span>
+               </li>
+   
+               <li class="color-item">
+                  <span class="input_checkbox">
+                     <a href="#">
+                     <span style="background-color: #c4c4c4;"></span>
+                     </a>
+                  </span>   
+                  <span class="productcolor_label">은색</span>
+               </li>
+   
+               <li class="color-item">
+                  <span class="input_checkbox">
+                     <a href="#">
+                     <span style="background-color: #ffffff;"></span>
+                     </a>
+                  </span>   
+                  <span class="productcolor_label">흰색</span>
+               </li>
+   
+               <li class="color-item">
+                  <span class="input_checkbox">
+                     <a href="#">
+                     <span style="background-color: #fcc300;"></span>
+                     </a>
+                  </span>   
+                  <span class="productcolor_label">노랑색</span>
+               </li>
+
+            </ul>
+         </div>
+         
+         <div class="category_sports_wrap">
+            <div class="category_title">
+               <span>스포츠</span>
+               <i class="fas fa-angle-up"></i>
+            </div>
+            <ul class="sports_list">
+               <li><a href="">라이프스타일</a></li>
+               <li><a href="">러닝</a></li>
+               <li><a href="">농구</a></li>
+               <li><a href="">축구</a></li>
+               <li><a href="">트레이닝&짐</a></li>
+               <li><a href="">+ 더보기</a></li>
+            </ul>
+         </div>
+         
+         <div class="category_brand_wrap">
+            <div class="category_title">
+               <span>브랜드</span>
+               <i class="fas fa-angle-up"></i>
+            </div>
+            <ul class="brand_list">
+               <li><a href="">ACG</a></li>
+               <li><a href="">NikeLab</a></li>
+               <li><a href="">나이키 스포츠웨어</a></li>
+               <li><a href="">조던</a></li>
+            </ul>
+         </div>
+
+         <div class="category_icon_wrap">
+            <div class="category_title">
+               <span>아이콘</span>
+               <i class="fas fa-angle-up"></i>
+            </div>
+            <ul class="icon_list">
+               <li><a href="">프레스토</a></li>
+               <li><a href="">에어포스1</a></li>
+               <li><a href="">에어맥스 90</a></li>
+               <li><a href="">블레이저</a></li>
+               <li><a href="">코르테즈</a></li>
+               <li><a href="">+ 더보기</a></li>
+            </ul>
+         </div>
+
+      </section>
+
+
+      <!-- Contents Body -->
+      <section id="contents_body">
+         <ul id="content_product_wrap">
+            <li class="content_product">
+               <div class="content_product_img">
+                  <a href="">
+                     <img src="../img/new_releases_img/product1.jpg">
+                  </a>
+               </div>
+               <div class="content_product_info">
+                  <div>
+                     <p class="color_brown_170">출시 예정</p>
+                     <p>나이키 x T1 캡</p>
+                     <p class="color_gray_141">성인공용 모자</p>
+                     <div class="colors_change">2 컬러</div>
+                  </div>
+                  <div class="product_price">29,000원</div>
+               </div>
+            </li>
+
+            <!-- gif 파일 start-->
+            <li class="content_product margin_bottom_0">
+               <div>
+                  <div class="content_product_img">
+                     <a href="">
+                        <img src="../img/new_releases_img/product2.gif">
+                     </a>
+                  </div>
+               </li>
+            <!-- gif 파일 end-->
+
+            <li class="content_product">
+               <div class="content_product_img">
+                  <a href="">
+                     <img src="../img/new_releases_img/product3.jpg">
+                  </a>
+               </div>
+               <div class="content_product_info">
+                  <div>
+                     <p class="color_brown_170">출시 예정</p>
+                     <p>나이키 x T1 헤리티지 토트 백</p>
+                     <p class="color_gray_141">토트백</p>
+                     <div class="colors_change">1 컬러</div>
+                  </div>
+                  <div class="product_price">39,000원</div>
+               </div>
+            </li>
+
+            <li class="content_product">
+               <div class="content_product_img">
+                  <a href="">
+                     <img src="../img/new_releases_img/product4.jpg">
+                  </a>
+               </div>
+               <div class="content_product_info">
+                  <div>
+                     <p class="color_brown_170">출시 예정</p>
+                     <p>나이키 x T1 인피니트 티</p>
+                     <p class="color_gray_141">남성 반팔 티셔츠</p>
+                     <div class="colors_change">1 컬러</div>
+                  </div>
+                  <div class="product_price">45,000원</div>
+               </div>
+            </li>
+
+            <li class="content_product">
+               <div class="content_product_img">
+                  <a href="">
+                     <img src="../img/new_releases_img/product5.jpg">
+                  </a>
+               </div>
+               <div class="content_product_info">
+                  <div>
+                     <p class="color_brown_170">출시 예정</p>
+                     <p>나이키 x T1 캡</p>
+                     <p class="color_gray_141">성인공용 모자</p>
+                     <div class="colors_change">2 컬러</div>
+                  </div>
+                  <div class="product_price">29,000원</div>
+               </div>
+            </li>
+
+            <li class="content_product">
+               <div class="content_product_img">
+                  <a href="">
+                     <img src="../img/new_releases_img/product6.jpg">
+                  </a>
+               </div>
+               <div class="content_product_info">
+                  <div>
+                     <p>조던 에어 케이던스 SNC</p>
+                     <p class="color_gray_141">남성 신발 shdrn</p>
+                     <div class="colors_change">1 컬러</div>
+                  </div>
+                  <div class="product_price">139,000원</div>
+               </div>
+            </li>
+
+            <li class="content_product">
+               <div class="content_product_img">
+                  <a href="">
+                     <img src="../img/new_releases_img/product7.jpg">
+                  </a>
+               </div>
+               <div class="content_product_info">
+                  <div>
+                     <p>나이키 에어 포스 1 '07 에센셜</p>
+                     <p class="color_gray_141">여성 신발 라이프스타일</p>
+                     <div class="colors_change">1 컬러</div>
+                  </div>
+                  <div class="product_price">129,000원</div>
+               </div>
+            </li>
+
+            <li class="content_product">
+               <div class="content_product_img">
+                  <a href="">
+                     <img src="../img/new_releases_img/product8.jpg">
+                  </a>
+               </div>
+               <div class="content_product_info">
+                  <div>
+                     <p>나이키 에어맥스 2090</p>
+                     <p class="color_gray_141">여성 신발 라이프스타일</p>
+                     <div class="colors_change">2 컬러</div>
+                  </div>
+                  <div class="product_price">169,000원</div>
+               </div>
+            </li>
+
+            <li class="content_product">
+               <div class="content_product_img">
+                  <a href="">
+                     <img src="../img/new_releases_img/product9.jpg">
+                  </a>
+               </div>
+               <div class="content_product_info">
+                  <div>
+                     <p>나이키 데이브레이크</p>
+                     <p class="color_gray_141">여성 신발 라이프스타일</p>
+                     <div class="colors_change">8 컬러</div>
+                  </div>
+                  <div class="product_price">119,000원</div>
+               </div>
+            </li>
+
+            <li class="content_product">
+               <div class="content_product_img">
+                  <a href="">
+                     <img src="../img/new_releases_img/product10.jpg">
+                  </a>
+               </div>
+               <div class="content_product_info">
+                  <div>
+                     <p>나이키 블레이저 미드'77</p>
+                     <p class="color_gray_141">여성 신발 라이프스타일</p>
+                     <div class="colors_change">4 컬러</div>
+                  </div>
+                  <div class="product_price">119,000원</div>
+               </div>
+            </li>
+
+            <li class="content_product">
+               <div class="content_product_img">
+                  <a href="">
+                     <img src="../img/new_releases_img/product11.jpg">
+                  </a>
+               </div>
+               <div class="content_product_info">
+                  <div>
+                     <p>나이키 스포츠웨어 테크 플리스 하프집 드레스</p>
+                     <p class="color_gray_141">여성 드레스</p>
+                     <div class="colors_change">2 컬러</div>
+                  </div>
+                  <div class="product_price">109,000원</div>
+               </div>
+            </li>
+
+            <li class="content_product">
+               <div class="content_product_img">
+                  <a href="">
+                     <img src="../img/new_releases_img/product12.jpg">
+                  </a>
+               </div>
+               <div class="content_product_info">
+                  <div>
+                     <p>나이키 에어맥스 90</p>
+                     <p class="color_gray_141">여성 신발 라이프스타일</p>
+                     <div class="colors_change">2 컬러</div>
+                  </div>
+                  <div class="product_price">139,000원</div>
+               </div>
+            </li>
+
+            <li class="content_product">
+               <div class="content_product_img">
+                  <a href="">
+                     <img src="../img/new_releases_img/product13.jpg">
+                  </a>
+               </div>
+               <div class="content_product_info">
+                  <div>
+                     <p>나이키 스포츠웨어 아이콘 클래쉬 플리스 롱슬리브 탑</p>
+                     <p class="color_gray_141">여성 긴팔 탑</p>
+                     <div class="colors_change">1 컬러</div>
+                  </div>
+                  <div class="product_price">105,000원</div>
+               </div>
+            </li>
+
+            <li class="content_product">
+               <div class="content_product_img">
+                  <a href="">
+                     <img src="../img/new_releases_img/product14.jpg">
+                  </a>
+               </div>
+               <div class="content_product_info">
+                  <div>
+                     <p>나이키 스포츠웨어 아이콘 클래쉬 타이츠</p>
+                     <p class="color_gray_141">여성 타이츠</p>
+                     <div class="colors_change">1 컬러</div>
+                  </div>
+                  <div class="product_price">59,000원</div>
+               </div>
+            </li>
+
+            <li class="content_product">
+               <div class="content_product_img">
+                  <a href="">
+                     <img src="../img/new_releases_img/product15.jpg">
+                  </a>
+               </div>
+               <div class="content_product_info">
+                  <div>
+                     <p>나이키 스페이스 히피 04</p>
+                     <p class="color_gray_141">여성 신발 라이프스타일</p>
+                     <div class="colors_change">2 컬러</div>
+                  </div>
+                  <div class="product_price">159,000원</div>
+               </div>
+            </li>
+           
+
+
+         </ul>
+      </section>
+
+   </article>
+
+</main>
+<!-- Main End -->
+
+
+
+
+<!-- Footer Start -->
+<footer id="footer_wrap">
+   
+   <!-- Footer List -->
+   <div class="footer_list_wrap">
+      <ul class="list_main">
+         <li><a href="#">매장안내</a></li>
+         <li><a href="#">로그인</a></li>
+         <li><a href="#">회원가입</a></li>
+      </ul>
+      <ul class="list_center">
+         <li><a href="#">고객센터</a></li>
+         <li><a href="#">080-022-0182</a></li>
+         <li><a href="#">주문/결제</a></li>
+         <li><a href="#">배송</a></li>
+         <li><a href="#">멤버쉽 혜택/서비스</a></li>
+         <li><a href="#">공지사항</a></li>
+         <li><a href="#">1:1 채팅 문의</a></li>
+         <li><a href="#">1:1 이메일문의</a></li>
+         <li><a href="#">이용약관</a></li>
+         <li><a href="#">개인정보처리방침</a></li>
+      </ul>
+      <ul class="list_about">
+         <li class="font_trade_gothic"><a href="#">ABOUT NIKE</a></li>
+         <li><a href="#">나이키에 대하여</a></li>
+      </ul>
+      <ul class="list_social">
+         <li class="font_trade_gothic"><a href="#">SOCIAL</a></li>
+         <div class="list_social_wrap">
+            <li><a href="#"><i class="fab fa-twitter-square"></i></a></li>
+            <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+            <li><a href="#"><i class="fab fa-youtube-square"></i></a></li>
+            <li><a href="#"><i class="fab fa-instagram-square"></i></a></li>
+         </div>
+      </ul>
+   </div>
+
+   <!-- Footer Copy -->
+   <div class="footer_copy_wrap">
+      <div class="footer_copy_left"><a href="#"><i class="fas fa-map-marker"></i><span class="country_padding">대한민국</span></a>ⓒ 2020 Nike, Inc. All Rights Reserved</div>
+      <div class="footer_copy_right">
+         <a href="#">이용약관</a>
+         <a href="#">개인정보처리방침</a>
+      </div>
+   </div>
+
+   <!-- Footer Address -->
+   <div class="footer_address_wrap">
+      <div class="footer_address">
+         <span>(유)나이키코리아 대표 KIM MYUNG HEE</span>
+         <span class="border_left">서울 강남구 테헤란로 152 강남파이낸스센터 31층</span><br>
+         <span>통신판매업신고번호 2011-서울강남-03461</span>
+         <span class="border_left">등록번호 220-88-09068</span> <a href="#">사업자정보확인</a><br>
+         <span>개인정보보호책임자 ANDY HOUGHTON</span>
+         <span class="border_left">정보보호최고책임자 이희준</span><br>
+         <span>고객센터 전화문의 <a href="#">080-022-0182</a></span><br>
+         <span>FAX 02-6744-5880</span>
+         <span class="border_left">E-mail service@nike.co.kr</span>
+         <span class="border_left">호스팅서비스사업자 브리즈</span>
+      </div>
+
+      <div class="footer_insurance">
+         <span>안전거래를 위해 현금 등으로 결제 시 저희 쇼핑몰에서 가입한<br>
+         KG 이니시스의 구매안전 서비스 (채무지급보증)를 이용하실 수 있습니다.<br>
+         <br>
+         온라인디지털콘텐츠사업발전법에 의한 <a href="#">콘텐츠보호안내 자세히보기</a>
+         </span>
+         <img src="../img/icon/escrow_43x43_gray.png">
+      </div>
+   </div>
+
+</footer>
+<!-- Footer END -->
+
+
+
+</body>
+</html>

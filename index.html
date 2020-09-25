@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <title>나이키 랜딩 - 나이키 by 3조</title>
+    <link rel="icon" href="favicon.png" />
+    <!--favicon은 주로 루트 경로에 위치해 있습니다.-->
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <!-- for Internet Explorer Browser -->
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--CSS Style Shhet-->
+    <link rel="stylesheet" href="css/index.css" />
+    <!--font-->
+    <link rel="stylesheet" href="css/font.css" />
+    <link rel="stylesheet" href="css/common.css" /> 
+    <!--font-awesome cdn-->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
+      rel="stylesheet"
+    />
+    <script src="https://kit.fontawesome.com/9cc89cc5cb.js" crossorigin="anonymous"></script>
+    <!--CDN 링크 -->
+    
+  </head>
+
+
+  <body>
+    <header id="header">
+      <nav id="header_gnb">
+        <ul class="gnb_left">
+          <li><a href="index.html">Nike</a></li>
+          <li><a href="">Join Us</a></li>
+          <li><a href="#" id="jd_logo"></a></li>
+          <li class="min-width-110"><a href="#" id="cv_logo"></a></li>
+        </ul>
+        <!--/ GNB Left END-->
+
+        <ul class="gnb_right">
+          <li><a href="" class="join">회원가입</a> / 
+            <a href="" class="login">로그인</a></li>
+          <li><a href="">고객센터</a></li>
+          <li>
+            <a href="">
+              <i class="fas fa-shopping-cart" id="shopping-cart-desktop"></i>
+            </a>  
+          </li>
+          <li>
+              <a href="">
+              <i class="fas fa-map-marker"></i>&nbsp;&nbsp;대한민국
+            </a>
+          </li>  
+        </ul>
+        <!-- / GNB Right END-->
+      </nav>
+      <!--HEADER - GNB END -->
+
+      <nav id="lnb">
+        <div class="nike_logo_container"><a href="index.html"><figure></figure></a></div>
+        <ul class="center_menu">
+          <li><a href="new_releases/new_releases.html">NEW RELEASES</a></li>
+          <li><a href="">MEN</a></li>
+          <li><a href="">WOMEN</a></li>
+          <li><a href="">KIDS</a></li>
+        </ul>
+        <div class="search_container"> 
+          <input type="text" placeholder="검색" id="search-box">
+          <!-- <input type="text" placeholder="검색" id="search_box" />
+          <label for="search_box"> -->
+            <!--  <i class="fas fa-search"></i> -->
+          <!-- </label> -->
+        </div>
+      </nav>
+    </header>
+    <!--Header END-->
+
+    <main>
+      <section id="content">
+        <!--width:1427 => 15.6인치 노트북 화면 -->
+        <!--width:1792 => 데스크탑 모니터 화면 -->
+        <div class="content_wrap">
+          <!-- Content 1 -->
+          <video
+            loop="loop"
+            autoplay="autoplay"
+            muted="muted"
+            webkit-playsinline="webkit-playsinline"
+            playsinline="playsinline"
+            style="position: static"
+          >
+          <!--아이폰에서 <video playsinline> 요소는 이제 인라인으로 재생할 수 있으며,
+              재생이 시작될 때 자동으로 전체화면 모드로 들어가지 않습니다.
+              <video> 요소에 playsinline 속성이 없이 iPhone에서 재생하려면 전체 화면 모드가 계속 필요합니다.
+              핀치 제스처로 전체 화면을 종료하면, <video> 요소는 playsinline 없이 인라인으로 계속 재생됩니다.
+              
+                스마트폰으로 웹사이트에 접속을 했을때 해당 사이트에 있는 영상을
+                재생하려면 자동적으로 전체화면으로 전환되는데, 
+                이때 전체화면으로 전환되지 않은채로 사이트 내에서 재생할 수 있게 해주는
+                속성이 playsinline
+                playsinline, muted, autoplay 3가지를 하나의 세트처럼 사용해야
+                인라인 재생이 가능하다.
+              
+              -->
+            <source src="video/first_vid.mp4" />
+          </video>
+          <div class="content_text_wrap text_align_center">
+            <h2 class="headline ">나이키 플라이이즈</h2>
+            <p>쉽고 빠르게 신발을 신을 수 있는 혁신적인 기술을 만나보세요.</p>
+            <div class="btn_wrap">
+              <a href="#" class="btn">구매하기</a>
+              <a href="#" class="btn">자세히 보기</a>
+            </div>
+          </div>
+
+          <!-- Content 2-->
+          <div class="content_full_img">
+            <img
+              src="img/landing_content/01.nike_running_pack.jpg"
+              alt="러닝팩 이미지"
+            />
+          </div>
+          <div class="content_text_wrap text_align_center">
+            <h2 class="headline">나이키 러닝 패스트팩</h2>
+            <p>
+              새롭게 출시된 나이키 패스트 팩과 함께 마라톤 시즌을 준비하고 러닝
+              목표를 달성해보세요.
+            </p>
+            <div class="btn_wrap">
+              <a href="#" class="btn">컬렉션 구매하기</a>
+              <a href="#" class="btn">자세히 보기</a>
+            </div>
+          </div>
+
+          <!-- Content 3-->
+          <div class="content_full_img">
+            <img
+              src="img/landing_content/02.nike_air_2020_fly.jpg"
+              alt="플라이니트 이미지"
+            />
+          </div>
+          <div class="content_text_wrap text_align_center">
+            <h2 class="headline">나이키 에어 베이퍼맥스 2020 플라이니트</h2>
+            <p>
+              무게의 최소 50%가 재활용 소재로 만들어진 나이키 에어 베이퍼맥스
+              2020. <br />
+              새로운 컬러로 출시된 에어 베이퍼맥스 2020과 함께 지속가능성을 향한
+              여정에 동참해보세요.
+            </p>
+            <div class="btn_wrap">
+              <a href="#" class="btn">구매하기</a>
+            </div>
+          </div>
+
+          <!-- Content 4-->
+          <div class="sub_headline">
+            <h3>이번 주 스타일링</h3>
+          </div>
+          <div class="content_full_img">
+            <img
+              src="img/landing_content/03.nike_styling.jpg"
+              alt="레이어드 스타일링 이미지"
+            />
+          </div>
+          <div class="content_text_wrap text_align_center">
+            <h2 class="headline">활용도 높은 나이키 레이어드 스타일링</h2>
+            <p>
+              활용도 높은 디자인으로 다양한 스타일과 믹스매치 할 수 있는 나이키
+              레이어드 스타일링을 소개합니다.<br />
+              나이키가 제안하는 다양한 룩과 함께 개성있는 룩을 완성해보세요.
+            </p>
+            <div class="btn_wrap">
+              <a href="#" class="btn">구매하기</a>
+              <a href="#" class="btn">더 많은 스타일링 보기</a>
+            </div>
+          </div>
+
+          <!-- Content 5 : 여기서부터 swiper js 넣은거 같은 부분-->
+          <!-- 영신 div class 수정 -->
+          <div class="content_full_img_animation">
+            <img
+              src="img/landing_content/05.content.jpg"
+              alt="나이키테크 이미지"
+            />
+          </div>
+          <div class="content_text_wrap text_align_center">
+            <h2 class="headline">나이키 테크 플리스 컬렉션</h2>
+            <p>
+              가을을 위한 모던함으로 새롭게 돌아온 아이코닉한 테크 플리스를
+              만나보세요. <br />
+              세련된 핏과 편안함으로 시대를 초월하는 스타일을 선사합니다.
+            </p>
+            <div class="btn_wrap">
+              <a href="#" class="btn">구매하기</a>
+            </div>
+          </div>
+
+          <!-- Content 6 -->
+          <video
+            loop="loop"
+            autoplay="autoplay"
+            muted="muted"
+            webkit-playsinline="webkit-playsinline"
+            playsinline="playsinline"
+            style="position: static"
+          >
+            <source src="video/sec_vid.mp4" />
+          </video>
+          <div class="content_text_wrap text_align_center">
+            <h2 class="headline">조던 줌'92</h2>
+            <p>
+              90년대의 아이코닉한 스니커즈와 혁신적인 줌 에어 쿠셔닝이 만나
+              <br />
+              새롭게 출시된 조던 줌'92를 만나보세요.
+            </p>
+            <div class="btn_wrap">
+              <a href="#" class="btn">구매하기</a>
+            </div>
+          </div>
+
+          <!-- Content 7-->
+          <div class="sub_headline">
+            <h3>Trending Now</h3>
+          </div>
+          <div class="half_img_container">
+              <div class="content_half_img1">
+                <img
+                  src="img/landing_content/half-1_collection.jpg"
+                  alt="레이어드 스타일링 이미지"
+                />
+                <div class="content_text_onpic1">
+                  <h4 class="headline_white_1">스우시 컬렉션</h4>
+                  <div class="btn_wrap_1">
+                    <a href="#" class="btn_white">구매하기</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="content_half_img2">
+                <img
+                  src="img/landing_content/half-2_daybreak.jpg"
+                  alt="레이어드 스타일링 이미지"
+                />
+                <div class="content_text_onpic2">
+                  <h4 class="headline_white_2">데이브레이크</h4>
+                  <div class="btn_wrap_2">
+                    <a href="#" class="btn_white">구매하기</a>
+                  </div>
+                </div>
+              </div>
+          </div>
+
+          <!-- Content 8 featured_shoes -->
+          <section id="featured_shoes">
+
+            <div class="featured_shoes_wrap">
+            <div class="sub_headline">
+              <h3>Featured Shoes</h3>
+            </div>
+
+            <div class="slide_shoes_wrap"> 
+
+              <div class="slide_item_wrap">
+                <!--slide item 1-->
+                <div class="slide_item">
+                  <a href="#">
+                    <img src="img/landing_content/item1.jpg" alt="나이키에어">
+                  </a>
+                  <a href="#">
+                    <div class="product_summary">
+                      <h4 class="shoes_head">나이키 에어 베이퍼맥스 2020 FK</h4>
+                      <p class="shoes_product">남성 신발 라이프스타일</p>
+                      <p class="shoes_price">259,000원</p>
+                    </div>
+                  </a>
+                </div>
+                 <!--slide item 2-->
+                 <div class="slide_item">
+                  <a href="#">
+                    <img src="img/landing_content/item2.jpg" alt="나이키에어">
+                  </a>
+                  <a href="#">
+                    <div class="product_summary">
+                      <h4 class="shoes_head">나이키 데이브레이크</h4>
+                      <p class="shoes_product">여성 신발 라이프스타일</p>
+                      <p class="shoes_price">119,000원</p>
+                    </div>
+                  </a>
+                </div>
+                  <!--slide item 3-->
+                  <div class="slide_item">
+                    <a href="#">
+                      <img src="img/landing_content/item3.jpg" alt="나이키에어">
+                    </a>
+                    <a href="#">
+                      <div class="product_summary">
+                        <h4 class="shoes_head">나이키 와플 레이서2X</h4>
+                        <p class="shoes_product">여성 신발 라이프스타일</p>
+                        <p class="shoes_price">119,000원</p>
+                      </div>
+                    </a>
+                  </div>
+                    <!--slide item 4-->
+                <div class="slide_item">
+                  <a href="#">
+                    <img src="img/landing_content/item4.jpg" alt="나이키에어">
+                  </a>
+                  <a href="#">
+                    <div class="product_summary">
+                      <h4 class="shoes_head">나이키 에어 줌 페가수스 37</h4>
+                      <p class="shoes_product">남성 신발 러닝</p>
+                      <p class="shoes_price">139,000원</p>
+                    </div>
+                  </a>
+                </div>
+                 <!--slide item 5-->
+                 <div class="slide_item">
+                  <a href="#">
+                    <img src="img/landing_content/item5.jpg" alt="나이키에어">
+                  </a>
+                  <a href="#">
+                    <div class="product_summary">
+                      <h4 class="shoes_head">줌 프릭 2</h4>
+                      <p class="shoes_product">남성 신발 농구</p>
+                      <p class="shoes_price">139,000원</p>
+                    </div>
+                  </a>
+                </div>
+                  <!--slide item 6-->
+                  <div class="slide_item">
+                    <a href="#">
+                      <img src="img/landing_content/item6.jpg" alt="나이키에어">
+                    </a>
+                    <a href="#">
+                      <div class="product_summary">
+                        <h4 class="shoes_head">에어 조던 3 레트로 SE</h4>
+                        <p class="shoes_product">남성 신발 농구</p>
+                        <p class="shoes_price">239,000원</p>
+                      </div>
+                    </a>
+                  </div>
+                  <!--slide item 7-->
+                  <div class="slide_item">
+                    <a href="#">
+                      <img src="img/landing_content/item7.jpg" alt="나이키에어">
+                    </a>
+                    <a href="#">
+                      <div class="product_summary">
+                        <h4 class="shoes_head">나이키 에어맥스 270 G</h4>
+                        <p class="shoes_product">성인공용 신발 골프</p>
+                        <p class="shoes_price">199,000원</p>
+                      </div>
+                    </a>
+                  </div>
+                  <!--slide item 8-->
+                  <div class="slide_item">
+                    <a href="#">
+                      <img src="img/landing_content/item8.jpg" alt="나이키에어">
+                    </a>
+                    <a href="#">
+                      <div class="product_summary">
+                        <h4 class="shoes_head">나이키 머큐리얼 슈퍼플라이 7 엘리트 TF</h4>
+                        <p class="shoes_product">인공 잔디 축구화</p>
+                        <p class="shoes_price">199,000원</p>
+                      </div>
+                    </a>
+                  </div> 
+              </div><!--/slide_item_wrap-->
+              
+            </div><!--/slide_shoes_wrap-->
+
+            <div class="scrollbar">
+              <!-- <div class="swiper-scrollbar-drag" style="transform: translate3d(0px, 0px, 0px); width: 330.251px;"></div> -->
+              <div class="scrollbar-drag" style="width: 330.251px;"></div>
+          </div>
+          </div><!--/Featured Shoes Wrap-->
+        </section>
+
+
+        <!-- Content 9 Apparel Essentials -->
+        <section id="apparel">
+          
+          <div class="apparel_wrap">
+
+            <div class="sub_headline">
+              <h3>Apparel Essentials</h3>
+            </div>
+
+            <div class="apparel_img_wrap">
+              <div class="apparel_img">
+                <a href="#">
+                  <img src="img/landing_content/apparel-1.jpg" alt="의류이미지">
+                  <div class="apparel_text">
+                    <p>재킷 & 베스트</p>
+                  </div>
+                </a>  
+              </div>
+              <div class="apparel_img">
+                <a href="#">
+                  <img src="img/landing_content/apparel-2.jpg" alt="의류이미지">
+                  <div class="apparel_text">
+                    <p>후디 & 크루</p>
+                  </div>
+                </a> 
+              </div>
+              <div class="apparel_img">
+                <a href="#">
+                  <img src="img/landing_content/apparel-3.jpg" alt="의류이미지">
+                  <div class="apparel_text">
+                    <p>팬츠 & 타이츠</p>
+                  </div>
+                </a> 
+              </div>
+            </div>
+
+
+
+          </div><!--/apparel_wrap-->
+        </section>
+
+        </div><!--content wrap-->
+      </section>
+
+
+
+    <!-- Footer Start -->
+  <footer id="footer_wrap">
+   
+      <!-- Footer List -->
+      <div class="footer_list_wrap">
+        <ul class="list_main">
+            <li><a href="#">매장안내</a></li>
+            <li><a href="#">로그인</a></li>
+            <li><a href="#">회원가입</a></li>
+        </ul>
+        <ul class="list_center">
+            <li><a href="#">고객센터</a></li>
+            <li><a href="#">080-022-0182</a></li>
+            <li><a href="#">주문/결제</a></li>
+            <li><a href="#">배송</a></li>
+            <li><a href="#">멤버쉽 혜택/서비스</a></li>
+            <li><a href="#">공지사항</a></li>
+            <li><a href="#">1:1 채팅 문의</a></li>
+            <li><a href="#">1:1 이메일문의</a></li>
+            <li><a href="#">이용약관</a></li>
+            <li><a href="#">개인정보처리방침</a></li>
+        </ul>
+        <ul class="list_about">
+            <li class="font_trade_gothic"><a href="#">ABOUT NIKE</a></li>
+            <li><a href="#">나이키에 대하여</a></li>
+        </ul>
+        <ul class="list_social">
+            <li class="font_trade_gothic"><a href="#">SOCIAL</a></li>
+            <div class="list_social_wrap">
+              <li><a href="#"><i class="fab fa-twitter-square"></i></a></li>
+              <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+              <li><a href="#"><i class="fab fa-youtube-square"></i></a></li>
+              <li><a href="#"><i class="fab fa-instagram-square"></i></a></li>
+            </div>
+        </ul>
+      </div>
+
+      <!-- Footer Copy -->
+      <div class="footer_copy_wrap">
+        <div class="footer_copy_left"><a href="#"><i class="fas fa-map-marker"></i><span class="country_padding">대한민국</span></a>ⓒ 2020 Nike, Inc. All Rights Reserved</div>
+        <div class="footer_copy_right">
+            <a href="#">이용약관</a>
+            <a href="#">개인정보처리방침</a>
+        </div>
+      </div>
+
+      <!-- Footer Address -->
+      <div class="footer_address_wrap">
+        <div class="footer_address">
+            <span>(유)나이키코리아 대표 KIM MYUNG HEE</span>
+            <span class="border_left">서울 강남구 테헤란로 152 강남파이낸스센터 31층</span><br>
+            <span>통신판매업신고번호 2011-서울강남-03461</span>
+            <span class="border_left">등록번호 220-88-09068</span> <a href="#">사업자정보확인</a><br>
+            <span>개인정보보호책임자 ANDY HOUGHTON</span>
+            <span class="border_left">정보보호최고책임자 이희준</span><br>
+            <span>고객센터 전화문의 <a href="#">080-022-0182</a></span><br>
+            <span>FAX 02-6744-5880</span>
+            <span class="border_left">E-mail service@nike.co.kr</span>
+            <span class="border_left">호스팅서비스사업자 브리즈</span>
+        </div>
+
+        <div class="footer_insurance">
+            <span>안전거래를 위해 현금 등으로 결제 시 저희 쇼핑몰에서 가입한<br>
+            KG 이니시스의 구매안전 서비스 (채무지급보증)를 이용하실 수 있습니다.<br>
+            <br>
+            온라인디지털콘텐츠사업발전법에 의한 <a href="#">콘텐츠보호안내 자세히보기</a>
+            </span>
+            <img src="img/icon/escrow_43x43_gray.png">
+        </div>
+      </div>
+
+    </footer>
+
+    </main>
+  </body>
+</html>

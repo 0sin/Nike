@@ -1,0 +1,358 @@
+/*------------------ 리셋/공통  ------------------*/
+
+* {margin: 0;  padding: 0;  box-sizing: border-box;}
+
+body {
+    font-family: 'Noto Sans KR', serif;
+    font-style: normal;
+    color: rgb(17, 17, 17);
+    -webkit-font-smoothing: antialiased;}
+
+ul {list-style: none;}
+li {padding: 0; margin: 0;}
+
+a {text-decoration: none;}
+
+
+ 
+/* 폰트 스타일 */
+h2 {
+   font-size: 43px;
+   font-weight: 700;
+}
+
+h3 {
+   font-size: 23px;
+   font-weight: 500;
+}
+
+h4{
+   font-size: 20px;
+   font-weight: 500;
+   color: rgb(255, 255, 255);
+   line-height: 32px;
+}
+
+p {
+   font-size: 16px;
+   font-weight: 400;
+}
+
+.text_align_center {
+    text-align: center;
+}
+
+
+
+
+/*------------------ HEADER START ------------------*/
+
+.min-width-110 {
+   min-width: 120px;
+ }
+ 
+ #header {
+   z-index: 9999;
+   position: fixed;
+   width: 100%;
+   height: 109px;
+   background: #fff;
+   border-bottom: 1px solid #e5e5e5;
+   display: block;
+   font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
+ }
+ #header_gnb {
+   width: 100%;
+   height: 38px;
+   margin: 0 auto;
+   border-bottom: 1px solid #e5e5e5;
+   color: rgb(141, 141, 141);
+ }
+ 
+ /* GNB LEFT STYLE */
+ .gnb_left {
+   display: flex;
+   float: left;
+   justify-content: space-between;
+ }
+ .gnb_left li {
+   font-size: 12px;
+   font-style: normal;
+   border-right: 1px solid #e5e5e5;
+   vertical-align: baseline;
+   text-align: center;
+   line-height: 38px;
+   padding: 0 20px;
+   width: 90px;
+ }
+ .gnb_left a {
+   cursor: pointer;
+   text-align: center;
+   color: rgb(141, 141, 141);
+ }
+ .gnb_left a:hover,
+ .gnb_right a:hover {
+   color: rgb(17, 17, 17);
+ }
+ 
+ 
+ #jd_logo {
+   background: url(../img/icon/jd_logo_gray.png) no-repeat;
+   background-size: 17px 16px;
+   background-position: center center;
+   height: 39px;
+   width: 21px;
+   cursor: pointer;
+   padding: 0 20px;
+ }
+ #jd_logo:hover {
+   background-image: url(../img/icon/jd_logo_red.png);
+ }
+ #cv_logo {
+   background: url(../img/icon/converse_logo.png) no-repeat;
+   background-size: 69px;
+   width: 69px;
+   background-position: center center;
+   padding: 0 40px;
+   filter: opacity(0.4) drop-shadow(0 0 0 #e5e5e5);
+ }
+ 
+ #cv_logo:hover {
+   filter: opacity(0.5) drop-shadow(0 0 0 #111);
+ }
+ 
+ /* GNB RIGHT STYLE */
+ .gnb_right {
+   width: 310px;
+   height: 38px;
+   float: right;
+   display: flex;
+   justify-content: space-between;
+   margin-right: 28px;
+ }
+ .gnb_right li {
+   font-size: 12px;
+   font-style: normal;
+   vertical-align: baseline;
+   text-align: center;
+   line-height: 38px;
+ }
+ .gnb_right a {
+   color: rgb(141, 141, 141);
+ }   
+ 
+ 
+ 
+ /* LNB STYLE */
+ #lnb {
+   z-index: 101;
+   width: 100%;
+   display: flex;
+   height: 70px;
+   padding: 0 32px 0 30px;
+   align-items: center;
+   justify-content: space-between;
+ }
+ 
+ .nike_logo_container figure {
+   background: url(../img/icon/nike_logo.svg) no-repeat center;
+   background-size: 60px;
+   width: 60px;
+   height: 70px;
+ }
+ 
+ .center_menu {
+   display: flex;
+   text-align: center;
+   justify-content: space-between;
+   vertical-align: middle;
+   margin: 0;
+   line-height: 70px;
+   padding-left: 120px;
+ }
+ .center_menu li {
+   padding: 0 22px;
+ }
+ .center_menu a {
+   font-family: "Trade Gothic LT W01 Bd CnNo-20", "Apple SD Gothic Neo",
+     "Noto Sans KR", "맑은 고딕", serif, Arial, Helvetica !important;
+   font-size: 16px;
+   font-weight: 400;
+   color: rgb(17, 17, 17);
+ }
+ 
+ .search_container {
+   line-height: 70px;
+ }
+ 
+ input {
+   width: 224px;
+   height: 40px;
+   border-radius: 2px;
+   font-size: 14px;
+   cursor: text;
+   border: 1px #e5e5e5 solid;
+ }
+  
+ #search-box {
+   background: url('../img/icon/search.png') no-repeat;
+   background-size: 18px;
+   background-position: 24px;
+   padding: 10px 30px 10px 49px;
+ }
+ 
+ 
+ /*------------------ HEADER END------------------*/
+
+ 
+
+
+ /*------------------ FOOTER START  ------------------*/
+
+ /* Footer 클래스 */
+#footer_wrap {
+   background-color: rgb(17, 17, 17);
+   width: 100%;
+   height: auto;
+   margin: 0 auto;
+   font-size: 11px;
+   color: rgb(153, 153, 153);
+}
+
+
+/* Footer List */
+.footer_list_wrap {
+   width: 880px;
+   margin: 0 auto;
+   padding: 40px 0;
+   display: flex;
+   justify-content: space-between;
+}
+
+.footer_list_wrap ul {
+   width: 205px;
+   height: 278px;
+   padding: 0 0 0 20px;
+}
+
+.footer_list_wrap ul li {
+   margin: 8px 0 0;
+}
+
+.list_center a:link, .list_about a:link, .footer_copy_wrap a:link  {
+   color: rgb(153, 153, 153);
+}
+
+.list_main a:link, .list_center > li:first-child a:link, .list_about > li:first-child a:link, .list_social  > li:first-child a:link  {
+   font-size: 13px;
+   font-weight: 400;
+   line-height: 18px;
+   letter-spacing: 0.5px;
+   color: rgb(255, 255, 255);
+}
+
+.list_center a:hover, .list_about a:hover, .list_social i:hover {
+   color: rgb(255, 255, 255);
+}
+
+.font_trade_gothic {
+   font-family: 'Trade Gothic LT W01 Bd CnNo-20', serif;
+}
+
+.list_social_wrap {
+   display: flex;
+}
+
+.list_social a:link {
+   color: rgba(153, 153, 153, 0.5);
+}
+
+.list_social i {
+   display: inline-block;
+   font-size: 22px;
+   letter-spacing: 11px;
+}
+
+
+/* Footer Copy */
+.footer_copy_wrap {
+   width: 100%;
+   margin: 0 auto;
+   padding: 15px 32px;
+   display: flex;
+   justify-content: space-between;
+   border-top: 1px solid rgba(153, 153, 153, 0.5);
+   border-bottom: 1px solid rgba(153, 153, 153, 0.5);
+   font-size: 10px;
+   line-height: 18px;
+}
+
+.footer_copy_right {
+   justify-content: flex-end;
+}
+.footer_copy_right a {
+   padding: 0 0 0 16px;
+}
+
+.footer_copy_left a:link {
+   color: rgb(255, 255, 255);
+}
+
+.country_padding {
+   padding: 0 15px 0 8px;
+}
+
+
+/* Footer Address */
+.footer_address_wrap {
+   width: 880px;
+   margin: 0 auto;
+   padding: 16px 0 25px;
+   display: flex;
+   justify-content: space-between;
+   font-size: 11px;
+   font-weight: 400;
+   line-height: 18px;
+}
+
+.footer_address {
+   width: 50%;
+   margin: 0 auto;
+}
+
+.footer_address span {
+   display: inline-block;
+   width: auto;
+   height: 10px;
+   line-height: 10px;
+}
+
+.footer_address a:link {
+   color: rgb(255, 255, 255);
+}
+
+.border_left {
+   border-left: 1px solid rgb(153, 153, 153);
+   padding: 0 6px 0 3px;
+}
+
+.footer_insurance {
+   width: 50%;
+   margin: 0 auto;
+   padding: 0 0 0 20px;
+   display: flex;
+}
+
+.footer_insurance a:link {
+   color: rgb(255, 255, 255);
+   text-decoration: underline;
+}
+
+.footer_insurance img {
+   width: 24px;
+   height: 24px;
+   margin: 0 0 0 16px;
+}
+
+
+/*------------------ FOOTER END  ------------------*/

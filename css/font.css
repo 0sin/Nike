@@ -1,0 +1,26 @@
+@font-face {
+    font-family: "Trade Gothic LT W01 Bd CnNo-20" ;
+    src: url(../font/Trade-Gothic-LT-Std-Bold-Condensed-No--20_45184.ttf);
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    src: url(../font/NotoSans_KR/NotoSansKR-Regular.otf);
+    font-family: 'Noto Sans KR';
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    src: url(../font/NotoSans_KR/NotoSansKR-Medium.otf);
+    font-family: 'Noto Sans KR';
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
+    src: url(../font/NotoSans_KR/NotoSansKR-Bold.otf);
+    font-family: 'Noto Sans KR'; 
+    font-style: normal;
+    font-weight: 700;
+}
+  
